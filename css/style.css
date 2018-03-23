@@ -1,0 +1,131 @@
+/* Bordered form */
+.form {
+    color: #00a900;
+    background-color: #ffffff;
+    height: auto;
+    width: auto;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 0px;
+    display: inline-block;  
+    margin: 0px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    caret-color: #4CAF50;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #ffffff;
+    color: #4c4c4c;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    display: block;  
+    margin: 8px auto 8px auto;
+    width: 50%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the find-my-iphone image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 12px 0 2px 0;
+}
+
+/* find-my-iphone image */
+img.find-my-iphone {
+    width: 150px;
+    height: auto;
+    border-radius: 45px;
+}
+
+/* Add padding to containers */
+.login-area {
+    width: 100%;
+    display: block;
+    margin: 5px auto 5px auto;
+    color: #4c4c4c;
+}
+#fmi{
+    display: block;
+    padding: 5px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+.alert {
+    position: relative;
+    z-index: 30;
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+}
+
+.alert.success {background-color: #4CAF50;
+display: none;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+#username{
+  border: solid .5px #4c4c4c;
+  border-radius: 10px;
+  display: block;  
+  margin: 0px auto 0px auto;
+  width: 50%;
+  padding: 0;
+  
+}
+#fakelinks{
+      display: block;
+    padding: 5px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+  color: #4CAF50;
+}
