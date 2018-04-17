@@ -57,3 +57,18 @@ p{
   margin: auto;
   text-align: center;
 }
+a:link{
+  color:#00ffff;
+}
+a:visited{
+  color:#00ffff;
+}
+a:hover{
+  color:#00ffff;
+}
+a:focus{
+  color:#00ffff;
+}
+a:active{
+  color:#00ffff;
+}
