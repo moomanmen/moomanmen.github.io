@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
 body,
 html {
   height: 100%;
@@ -23,6 +24,17 @@ html {
   width: 100%;
   text-align: center;
   color: #000;
+}
+
+.logo{
+  font-family: 'Gugi', cursive;
+  font-size: 60px;
+  position: absolute;
+  right: 2%;
+  top: 80%;
+  text-align: center;
+  color: #00ffff;
+  display: none;
 }
 
 .caption span.border {
